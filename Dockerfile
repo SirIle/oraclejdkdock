@@ -1,6 +1,6 @@
 # Create a docker base image for Oracle JRE 1.7 and a few essentials
-FROM sirile/ubuntu:0.8
-MAINTAINER Ilkka Anttonen version: 0.8
+FROM sirile/ubuntu:0.9
+MAINTAINER Ilkka Anttonen version: 0.9
 
 # Add the repositories
 RUN echo "deb http://ppa.launchpad.net/webupd8team/java/ubuntu $(lsb_release -cs) main" > /etc/apt/sources.list.d/oracle.list
